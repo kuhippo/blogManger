@@ -1,0 +1,23 @@
+.no-highlight() {
+  border-color: #e5e5e5;
+  box-shadow: none;
+}
+
+.search {
+
+    .ant-input {
+        min-width:200px;
+        &:focus,
+        &:hover {
+        .no-highlight();
+        }
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+
+    .ant-btn {
+        width: 80px;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+}

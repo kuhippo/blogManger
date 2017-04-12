@@ -1,0 +1,55 @@
+.catalog {
+  flex: 7;
+  background-color: #FFF;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  height: 100vh;
+}
+.catalog .addArctile {
+  display: block;
+  padding: 20px 0 20px 25px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+  cursor: pointer;
+  background-color: #FFF;
+  height: 60px;
+  font-weight: 450;
+  border-bottom: 1px solid #D9D9D9;
+}
+.catalog .itme {
+  border-bottom: .5px solid #D9D9D9;
+  height: 100px;
+  cursor: pointer;
+}
+.darkCatalog {
+  flex: 7;
+  background-color: #494949;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  height: 100vh;
+}
+.darkCatalog .addArctile {
+  display: block;
+  padding: 20px 0 20px 25px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+  cursor: pointer;
+  background-color: #494949;
+  height: 60px;
+  font-weight: 450;
+  border-bottom: px solid #D9D9D9;
+  color: white;
+}
+.darkCatalog .itme {
+  border-bottom: .5px solid #D9D9D9;
+  height: 100px;
+  background-color: #494949;
+  color: #B6B6B6;
+  cursor: pointer;
+}

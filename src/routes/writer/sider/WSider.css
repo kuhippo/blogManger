@@ -1,0 +1,92 @@
+.content {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #D9D9D9;
+}
+.content .sider {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+.content .sider button {
+  width: 70%;
+  height: 40px;
+  color: #108EE9;
+  border-color: #108EE9;
+  margin: 0 auto;
+  align-self: center;
+  margin-top: 20px;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.content .sider button:hover {
+  border-color: blue;
+  color: blue;
+}
+.content .bottom {
+  flex: 1;
+  background-color: #FFF;
+}
+.content .switch {
+  width: 30px;
+  bottom: 0;
+}
+.darkContent {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #D9D9D9;
+}
+.darkContent .sider {
+  background-color: #494949;
+  display: flex;
+  flex-direction: column;
+}
+.darkContent .sider button {
+  width: 70%;
+  height: 40px;
+  color: #108EE9;
+  border-color: #108EE9;
+  margin: 0 auto;
+  align-self: center;
+  margin-top: 20px;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.darkContent .sider button:hover {
+  border-color: blue;
+  color: blue;
+}
+.darkContent .bottom {
+  flex: 1;
+  background-color: #494949;
+}
+.darkContent .switch {
+  width: 30px;
+  bottom: 0;
+}
+.newCatalog {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding-left: 18px;
+  cursor: pointer;
+}
+.catalogView {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 10px 20px;
+}
+.catalogView .buttons {
+  display: flex;
+  justify-content: flex-start;
+  height: 60px;
+}
+.catalogView .buttons .button {
+  height: 30px;
+  width: 40%;
+}
+.itme {
+  height: 30px;
+}
